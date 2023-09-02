@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 270px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.144);
+    border: 1px solid #cccccc63;
+}
+input{
+    margin: 5px 5px;
+    padding: 13px;
+    outline: none;
+    width: 270px;
+    border: none;
+    border: 1px solid #cccccc71;
+    border-radius: 5px;
+}
+.Entrar{
+    margin: 10px 5px;
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(73, 101, 255);
+    color: white;
+    cursor: pointer;
+}
+.Entrar:hover{
+    background-color: rgb(49, 80, 255);
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 89, 255, 0.842);
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.linha{
+    border-bottom: 1px solid #cccccc71;
+    width: 280px;
+    margin: 7px auto;
+}
+.Criar-nova-conta{
+    padding: 10px 0px;
+    margin: 12px 90px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(52, 190, 10);
+    cursor: pointer;
+}
+.Criar-nova-conta:hover{
+    background-color: rgb(43, 158, 8);
+}
